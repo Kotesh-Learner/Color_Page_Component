@@ -1,0 +1,55 @@
+
+.container{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 50px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    outline: none;
+    
+}
+
+.buttons:hover{
+    color :aqua;
+
+}
+.hex_button{
+    height: 50px;
+    width: 135px;
+    cursor:pointer;
+    font-weight: bold;
+    font-weight: 1000;
+}
+.hex_button:hover{
+text-decoration-color: blueviolet;
+}
+
+.rgb_button{
+    height: 50px;
+    width: 135px;
+    cursor:pointer;
+    font-weight: bold;
+    font-weight: 1000;
+}
+
+.randomColor_button{
+    height: 50px;
+    width: 135px;
+    cursor:pointer;
+    font-weight: bold;
+    font-weight: 1000;
+}
+
+.colorNames{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:azure;
+    flex-direction: column;
+    gap :50px;
+    margin-top: 25px;
+}
